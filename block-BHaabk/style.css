@@ -96,3 +96,15 @@ img{
     flex-shrink: 0;
 }
 
+/*footer*/
+footer{
+    background-color: rgb(10, 97, 68); ;
+    display: flex;
+    color: white;
+    font-size: 20px;
+    align-content:flex-start;
+}
+footer p{
+
+}
+
