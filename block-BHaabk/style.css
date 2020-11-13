@@ -80,6 +80,19 @@ display: inline;
 }
 #img1 img{
    height: 300px;
-   width: 300px;
+   width: 300px; 
+}
+/* galary*/
+.img{
+    flex-wrap: nowrap;
+    justify-content: space-between ;
+    padding: 10px;
     
 }
+img{
+    height: 300px;
+    width: 300px;
+    padding-top: 20px;
+    flex-shrink: 0;
+}
+
