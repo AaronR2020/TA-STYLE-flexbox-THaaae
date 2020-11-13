@@ -1,0 +1,110 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*  custom styling  */
+p{
+    margin-bottom: 10px;
+}
+.header{
+background-color: rgb(10, 97, 68);
+
+}
+.inner{
+    padding: 30px;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+.logo{
+    font-size: 20px;
+    color: white;
+}
+.links{
+display: inline;
+}
+.links a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    padding-right: 20px;
+}
+#hp{
+    width: 40%;
+}
+#hp h2{
+    font-size: 30px;
+    color: black;  
+    padding-bottom: 20px; 
+}
+#img1 img{
+   height: 300px;
+   width: 300px; 
+}
+/* galary*/
+.img{
+    flex-wrap: nowrap;
+    justify-content: space-between ;
+    padding: 10px;
+    
+}
+img{
+    height: 300px;
+    width: 300px;
+    padding-top: 20px;
+    flex-shrink: 0;
+}
+
+/*footer*/
+footer{
+    background-color: rgb(10, 97, 68); ;
+    display: flex;
+    color: white;
+    font-size: 20px;
+    align-content:flex-start;
+}
+footer p{
+
+}
+
