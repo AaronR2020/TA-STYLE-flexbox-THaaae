@@ -1,0 +1,75 @@
+<!-- 
+- Create a page using flexbox according to the layout shown below.
+
+![Flex Shrink Property](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/flexbox/ex-2.png)
+
+- Using CSS resets is necessary.
+- Use semantic tags and keep the nesting and indentation proper. 
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Header-->
+    <header>
+        <div class="inner sb">
+           <div id="logo">
+               <p>AltCampus</p>
+           </div>
+           <div id="nav">
+            <a href="#"><img title="notification" alt="notification" src="assets\icons\bell.svg" width="30px"></a> 
+            <a href="#"> Sarah Jones</a>
+            <a href="#"><img title="user" alt="user" src="assets\icons\user.svg" width="30px"></a>
+           </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="inner">
+            <div id="left">
+                <div class="mainNav">
+                    <a href="#"><img title="Dashboard" alt="Dashboard" src="assets\icons\dashboard.svg" width="30px">Dashboard</a> 
+                    <a href="#" style="border: 2px solid orange; border-radius: 10px; color: orange;"><img title="Article" alt="Article" src="assets\icons\article.svg" width="30px" >Article</a> 
+                    <a href="#"><img title="Analytics" alt="Analytics" src="assets\icons\analytics.svg" width="30px">Analytics</a>
+                    <a href="#"><img title="Inbox" alt="Inbox" src="assets\icons\inbox.svg" width="30px">Inbox</a> 
+                    <a href="#"><img title="Settings" alt="Settings" src="assets\icons\setting.svg" width="30px">Settings</a>
+                </div>
+
+                <div id="middle"></div>
+
+                <div id="logout">
+                    <div class="mainNav  ">
+                        <div class="white">
+                            <a href="#" ><img title="Dashboard" alt="Dashboard" src="assets\icons\log-out.svg" width="30px">LogOut</a> 
+                    
+                        </div>
+                        </div>
+                 </div>
+            </div>
+
+            <div id="right">
+                <div class="inside">
+                    <img src="assets\01.png" alt="punch today in the face">
+                    <h1>Why are we doing AltCampus?</h1>
+                    <p>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Nulla quis lorem ut libero malesuada feugiat. Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Curabitur aliquet quam id dui posuere blandit. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.</p>
+                    <p class="container">
+                        Read More
+                    </p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="inner sb">
+            <span>&copy;Altcampus</span>
+            <span>f t</span>
+                  </footer>
+
+</body>
+</html>
