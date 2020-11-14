@@ -68,6 +68,7 @@ footer{ background-color: rgb(34,41,70);}
 #logo{
     font-size: 20px;
     color: green;
+    font-size: 30px;
 }
 #nav{
     display: flex;
@@ -81,7 +82,7 @@ footer{ background-color: rgb(34,41,70);}
 }
 /*custom stylesheet for main  class and id*/
 #left{
-   
+    width: 30%;
     background-color:rgb(163,202,234);
     border-radius: 3%;
     display: flex;
@@ -120,5 +121,47 @@ border-radius: 6px;
 a{  padding-top: 10%;
     color: black;
 }
+#right{
+    background-color: rgb(242,248,253);
+    width:65%;
+    display: flex;
+    border-radius: 8px;
+}
+.inside{
+    padding: 20px;
+    width: 100%s;
+    display: flex;
+    flex-direction: column;
+}
+.inside img{
+width: 100%;
+height: 40%;
+}
+.inside h1{
+    padding: 20px 0;
+    font-size: 40px;
+    font-size: bold;
+}
+.inside p{
+    font-size: 20px;
+    text-align: justify;
+    margin-bottom: 30px;
+}
+.container{
+    background-color: green;
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+    display: inline;
+    width: 16%;
+}
+.container p{
+    display: inline;
+}
 /*custom stylesheet footer class and id*/
-
+.sb{
+    color: gray;
+}
+.sb span{
+    font-size: 30px;
+}
