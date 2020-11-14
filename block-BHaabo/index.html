@@ -6,3 +6,59 @@
 - Using CSS resets is necessary.
 - Use semantic tags and keep the nesting and indentation proper. 
 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Header-->
+    <header>
+        <div class="inner sb">
+           <div id="logo">
+               <p>AltCampus</p>
+           </div>
+           <div id="nav">
+            <a href="#"><img title="notification" alt="notification" src="assets\icons\bell.svg" width="30px"></a> 
+            <a href="#"> Sarah Jones</a>
+            <a href="#"><img title="user" alt="user" src="assets\icons\user.svg" width="30px"></a>
+           </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="inner">
+            <div id="left">
+                <div class="mainNav">
+                    <a href="#"><img title="Dashboard" alt="Dashboard" src="assets\icons\dashboard.svg" width="30px">Dashboard</a> 
+                    <a href="#" style="border: 2px solid orange; border-radius: 10px; color: orange;"><img title="Article" alt="Article" src="assets\icons\article.svg" width="30px" >Article</a> 
+                    <a href="#"><img title="Analytics" alt="Analytics" src="assets\icons\analytics.svg" width="30px">Analytics</a>
+                    <a href="#"><img title="Inbox" alt="Inbox" src="assets\icons\inbox.svg" width="30px">Inbox</a> 
+                    <a href="#"><img title="Settings" alt="Settings" src="assets\icons\setting.svg" width="30px">Settings</a>
+                </div>
+
+                <div id="middle"></div>
+
+                <div id="logout">
+                    <div class="mainNav  ">
+                        <div class="white">
+                            <a href="#" ><img title="Dashboard" alt="Dashboard" src="assets\icons\log-out.svg" width="30px">LogOut</a> 
+                    
+                        </div>
+                        </div>
+                 </div>
+            </div>
+
+            <div id="right"></div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="inner sb"></div>
+    </footer>
+
+</body>
+</html>

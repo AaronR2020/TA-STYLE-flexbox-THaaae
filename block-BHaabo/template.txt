@@ -1,0 +1,14 @@
+	
+main
+	div.inner(display:flex, space-between)
+		div(width.30%, display:flex, flex-derecrion:col., space.between)
+			div.display:flex,direction:col
+			div.button.stretch
+			
+
+		div(width 50%)
+			img
+			info
+			botton
+			
+		
